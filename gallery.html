@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Computer Science Department Gallery</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f8f8f8;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .top-header {
+      background-color: #d6dade;
+      color: #030202;
+      display: flex; 
+      align-items: center; 
+      justify-content: space-evenly;
+      padding: 15px; 
+      position: relative;
+      margin-right: 10px;
+      padding: 20px;
+      border: 4px solid #ddd;
+      border-radius: 18px;
+      max-width: 900px; 
+      margin: 20px auto;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      border-radius: 8px;
+      text-transform: uppercase;
+      text-decoration: solid;
+      font-weight: bolder;
+    }
+
+    .top-header img {
+      max-width: 180px;
+      height: auto;
+      margin-left: 15px;
+    }
+
+    .top-header a {
+      text-decoration: none; 
+      color: #072243; 
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      background-color: #fff;
+    }
+
+    h2 {
+      color: #072243;
+      text-align: center;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      grid-gap: 50px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="top-header">
+      <img src="LEGONLOGO.jpeg" alt="School Logo">
+      <a href="home.html">Home</a>
+      <a href="admi.html">Admissions</a>
+      <a href="events.html">Events</a>
+      <a href="about.html">About</a>
+    </div>
+  </header>
+  <h2>Computer Science Department Gallery</h2>
+  <section>
+    <div class="gallery">
+      <img src="teaches.jpeg" alt="Image 1">
+      <img src="csboys.jpeg" alt="Image 2">
+      <img src="CSstudents.jpeg" alt="Image 3">
+      <img src="CS5.jpeg" alt="Image 7">
+      <img src="CS11.jpeg" alt="Image 12">
+      <img src="CS3.jpeg" alt="Image 5">
+      <img src="vv.jpeg" alt="Image 10">
+      <img src="short.jpeg" alt="Image 11">
+      <img src="short8.jpeg" alt="Image 12">
+      <img src="short2.jpeg" alt="Image 13">
+      <img src="CS5.jpeg" alt="Image 7">
+      <img src="CS5.jpeg" alt="Image 7">
+      <img src="CS4.jpeg" alt="Image 7">
+      <img src="CS6.jpeg" alt="Image 8">
+      <img src="CS8.jpeg" alt="Image 9">
+      <img src="CS15.jpeg" alt="Image 14">
+    </div>
+  </section>
+</body>
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .top-header {
+    background-color: #d6dade;
+    color: #030202;
+    display: flex; 
+    align-items: center; 
+    justify-content:space-evenly;
+    padding: 15px; 
+    position: relative;
+    margin-right: 10px;
+    padding: 20px;
+    border: 4px solid #ddd;
+    border-radius: 18px;
+    max-width: 900px; 
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    text-decoration: solid;
+    font-weight: bolder;
+    
+    
+
+    
+}
+
+.top-header img {
+    max-width: 180px;
+    height: auto;
+    margin-left: 15px;
+    
+
+}
+
+.top-header a {
+    text-decoration: none; 
+    color: #072243; 
+}
+
+    section {
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    h2 {
+      color: #061b77;
+      border-bottom: 2px solid #ae800d;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+    }
+
+    .contact-info {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    .contact-info div {
+      flex: 1;
+      padding: 0 10px;
+    }
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      background: linear-gradient(to right, #191e7d, #8f94fb);
+      color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    input,
+    textarea {
+      margin-bottom: 15px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    button {
+        display: inline-block;
+            padding: 15px;
+            background: linear-gradient(to right, #191e7d, #8f94fb);
+            color: #fff;
+            border: 3px solid;
+          
+
+    }
+    .form{
+        max-width: 800px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+    
+button:hover {
+      background-color: #555;
+    }
+    ul {
+            list-style-type:circle;
+            padding: 3px;
+            margin: 10px;
+        }
+
+        ul li {
+            margin-bottom: 5px;
+        }
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="top-header">
+        <img src="LEGONLOGO.jpeg" alt="School Logo">
+        <a href="home.html">Home</a>
+        <a href="admi.html">Admissions</a>
+        <a href="events.html">Events</a>
+        <a href="about.html">About</a>
+    </div>
+
+  </header>
+
+  <section>
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+      <div>
+        
+        <ul>
+            <h3>Phone Number</h3>
+            <li>+233 501 382 035</li>
+            <li>+233 559 145 698</li>
+</ul>
+<ul> 
+    <h3>Email:</h3>
+   <li> dcs@ug.edu.gh</li>
+</ul>
+        
+
+      </div>
+      <div>
+        <ul>
+            <h3>Location</h3>
+            <li>University Of Ghana</li>
+            <li>Opposite Mathematics Department</li>
+</ul>
+<ul> 
+    <h3>Enquiries:</h3>
+   <li> For more enquiries fill the form below</li>
+</ul>
+       
+      </div>
+    </div>
+  </section>
+<div class="form">
+    <h2>Contact Form</h2>
+    <div class="contact-form">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Your Message</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </div>
+</div>
+</body>
+</html>
+
